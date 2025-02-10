@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(249, 220, 185);
+    
+}
+div{
+    
+    width:301px;
+    height:75px;
+    position: relative;
+    top:70px;
+    left: 300px;
+   
+}  
+.display
+{
+    background-color: rgb(207, 154, 154);
+    width:100%;
+    height:70px;
+    border:solid;
+    padding: 12px,20px;
+    font-size:x-large;
+}
+.button
+{
+    border:solid black;
+    border-radius: 9px;
+    width:100%;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+button{
+
+    border:solid rgb(206, 17, 17);
+    border-radius: 16px;
+    width:100px;
+    height:50px;
+    margin:7px;
+    flex-basis: 20%;
+    text-align: center;
+    background-color: aquamarine;
+    font-size:larger;
+}
+.button:hover{
+    background-color:aqua;
+button:hover{
+    background-color: white;
+    color: blue; 
+    font-weight: bolder;
+    font-size:xx-large;
+    text-overflow: ellipsis;
+    opacity: 1;
+}
